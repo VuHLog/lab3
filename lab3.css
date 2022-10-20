@@ -1,0 +1,146 @@
+* {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    color: #333;
+    font-size: 1.4rem;
+}
+
+#header {
+    background-color: #999999;
+}
+
+.header__navbar {
+    list-style: none;
+    display: flex;
+}
+
+.header__navbar li a {
+    display: block;
+    padding: 10px 20px;
+    font-size: 1.4rem;
+    color: blue;
+}
+
+.container__title {
+    font-size: 2rem;
+    line-height: 2rem;
+    padding: 20px 5px;
+}
+
+.grid {
+    width: 100%;
+    display: block;
+    padding: 0;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -4px;
+    margin-right: -4px;
+}
+.col {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.l-2-4 {
+    flex: 0 0 20%;
+    max-width: 20%;
+}
+.l-9 {
+    flex: 0 0 75%;
+    max-width: 75%;
+}
+.container__sidebar .quick-box {
+    margin-left: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #e0e0e0;
+    font-size: 1.4rem;
+}
+
+.container__sidebar .quick-button {
+    background-color: #e6e6e6;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.container__sidebar .quick-button i {
+    padding: 0 5px;
+    height: 40%;
+    margin-right: 4px;
+    border: 1px solid #918f8f;
+    border-radius: 3px;
+}
+
+.container__sidebar .link-lists {
+    list-style: none;
+}
+
+.container__sidebar .link-lists a {
+    display: block;
+    color: #333;
+    padding: 5px 10px;
+}
+
+.container__content pre{
+    font-size: 20px;
+}
+.container__content .create-profile-form{
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.create-profile-form h2{
+    padding: 10px 5px;
+    border-bottom: 1px solid #e0e0e0;
+}
+.create-profile-form .create-box{
+    display: flex;
+    align-items: center;
+    padding: 10px 5px;
+    border-bottom: 1px solid #e0e0e0;
+}
+.create-profile-form .create-box label{
+    margin-left: 20px;
+    margin-right: 10px;
+}
+.create-profile-form .create-box p{
+    margin-left: 20px;
+    margin-right: 10px;
+}
+.create-profile-form .create-box select{
+    margin-right: 4px;
+}
+.create-profile-form .create-box:nth-child(5) label{
+    margin-left: 3px;
+}
+.create-profile-form .create-box button{
+    margin-left: 100px;
+    padding: 4px;
+}
+.container__content table{
+    margin: 30px 0;
+    border: 1px solid #e0e0e0;
+}
+.container__content table thead{
+    background-color: #e6e6e6;
+}
+.container__content table tr,th{
+    padding: 10px;
+}
+.container__content table td{
+    padding: 12px;
+}
